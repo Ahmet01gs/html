@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Güzel Sanatlar Galerisi</title>
+</head>
+<body style="background-color: #f4a460;">
+    <header style="background-color: #333; color: white; padding: 20px;">
+        <h1>Güzel Sanatlar Galerisi</h1>
+    </header>
+    <nav style="background-color: #333;">
+        <ul>
+            <li><a href="/">Ana Sayfa</a></li>
+            <li><a href="/sanatçılar">Sanatçılar</a></li>
+            <li><a href="/sergiler">Sergiler</a></li>
+            <li><a href="/iletisim">İletişim</a></li>
+        </ul>
+    </nav>
+    <main style="padding: 20px;">
+        <section style="background-color: #fff; padding: 20px;">
+            <h2>Yeni Sergi: Soyut Sanatın Gücü</h2>
+            <p>Sanat eserleri ve sergi detayları burada.</p>
+        </section>
+    </main>
+    <footer style="background-color: #333; color: white; padding: 10px; text-align: center;">
+        <p>&copy; 2023 Güzel Sanatlar Galerisi</p>
+    </footer>
+</body>
+</html>
