@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renkli ve Görsel Blog</title>
+    <style>
+        /* Temel sayfa stil tanımları */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article h2 {
+            font-size: 24px;
+            color: #ff6f61;
+        }
+
+        .article-image {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        article p {
+            font-size: 16px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .meta {
+            color: #888;
+        }
+
+        .author {
+            color: #0077b6;
+        }
+
+        footer {
+            background-color: #ff6f61;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Renkli ve Görsel Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Ana Sayfa</a></li>
+                    <li><a href="hakkimda.html">Hakkımda</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <h2>Yazı Başlığı 1</h2>
+            <img class="article-image" src="yazi1.jpg" alt="Yazı Görseli 1">
+            <p>Yazı metni buraya gelir...</p>
+            <p class="meta">Yazar: <span class="author">Alice Johnson</span> | Tarih: 18 Ekim 2023</p>
+        </article>
+
+        <article>
+            <h2>Yazı Başlığı 2</h2>
+            <img class="article-image" src="yazi2.jpg" alt="Yazı Görseli 2">
+            <p>Yazı metni buraya gelir...</p>
+            <p class="meta">Yazar: <span class="author">Bob Smith</span> | Tarih: 20 Ekim 2023</p>
+        </article>
+
+        <!-- Diğer yazılar buraya eklenir -->
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Renkli ve Görsel Blog</p>
+    </footer>
+</body>
+</html>

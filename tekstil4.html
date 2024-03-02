@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giyim Mağazası</title>
+    <style>
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            text-transform: uppercase;
+        }
+
+        section.slider {
+            background-color: #666;
+            /* Slider için stillendirme buraya eklenebilir. */
+        }
+
+        section.urunler {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .urun {
+            background-color: #444;
+            color: #fff;
+            border: 1px solid #666;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .urun img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .urun h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+
+        .urun .fiyat {
+            color: #e44d26;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .urun .sepete-ekle {
+            background-color: #e44d26;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1.2em;
+            text-transform: uppercase;
+        }
+
+        .urun .sepete-ekle:hover {
+            background-color: #c4371d;
+        }
+
+        section.iletisim {
+            background-color: #444;
+            color: #fff;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hoş Geldiniz!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Ürünler</a></li>
+                <li><a href="#">Koleksiyonlar</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="slider">
+        <!-- Burada bir görsel slider ekleyebilirsiniz. -->
+    </section>
+
+    <section class="urunler">
+        <h2>Ürünler</h2>
+        <div class="urun">
+            <img src="urun1.jpg" alt="Ürün 1">
+            <h3>Ürün 1</h3>
+            <p>Açıklama buraya yazılabilir.</p>
+            <span class="fiyat">49.99 TL</span>
+            <button class="sepete-ekle">Sepete Ekle</button>
+        </div>
+        <div class="urun">
+            <img src="urun2.jpg" alt="Ürün 2">
+            <h3>Ürün 2</h3>
+            <p>Açıklama buraya yazılabilir.</p>
+            <span class="fiyat">39.99 TL</span>
+            <button class="sepete-ekle">Sepete Ekle</button>
+        </div>
+        <!-- Diğer ürünlerin HTML kodlarını buraya ekleyin -->
+    </section>
+
+    <section class="iletisim">
+        <h2>İletişim</h2>
+        <p>Bizimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz.</p>
+        <address>
+            <p>Adres: Örnek Caddesi No: 123, İstanbul, Türkiye</p>
+            <p>Telefon: +90 123 456 78 90</p>
+            <p>E-posta: info@giyimmagazasi.com</p>
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Giyim Mağazası</p>
+    </footer>
+</body>
+</html>
